@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+    padding-left: 19px;
+
+    background-color: #e5e5e5;
+}
+
+.fixed {
+    height: 92px;
+    
+    position: fixed;
+    left: 0;
+    right: 0;
+
+    z-index: 1;
+}
+
+.fixed, main {
+    width: 100%
+
+    /* margin: 0 auto; */
+}
+
+header {
+    padding: 8px 0 18px 21px;
+
+    top: 0;
+
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    
+    background-color: #CF2B2B;
+}
+
+header h1 {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 44px;
+    letter-spacing: -0.012em;
+    
+    color: #ffffff;
+}
+
+header h2 {
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 5px;
+    
+    color: #ffffff;
+}
+
+/* MENU */
+main {
+    margin: 123px 0 108px 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.tipo {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 26px;
+    letter-spacing: 0.018em;
+
+    color: #333333;
+}
+
+.opcoes {
+    margin-top: 17px;
+
+    overflow: auto;
+    /* -webkit-overflow-scrolling: touch; */
+
+    display: flex;
+    gap: 16px;
+}
+
+.opcao, .selecionada {
+    width: 172px;
+    height: 216px;
+
+    border-radius: 9px;
+    padding-top: 18px;
+
+    box-shadow: 0 0 10px -4px rgba(0, 0, 0, 0.25);
+    
+    background-color: #ffffff;
+}
+
+.selecionada {
+    box-shadow: inset 0 0 0 5px #32B72F;
+    
+    position: relative;
+}
+
+ion-icon {
+    font-size: 19px;
+
+    position: absolute;
+    bottom: 14px;
+    right: 11px;
+
+    color: #32B72F;
+    display: none;
+}
+
+.selecionada ion-icon {
+    display: inline;
+}
+
+img {
+    width: 144px;
+    height: 87px;
+
+    border-radius: 4px;
+
+    margin: 0 14px;
+}
+
+.textoOpcao {
+    height: 90px;
+    margin: 8px 14px 13px 14px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nome {    
+    font-weight: 700;
+    font-size: 16px;
+
+    color: #333333;
+}
+
+.descricao {    
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+
+    text-align: justify;
+
+    color: #a6a6a6;
+}
+
+.preco {
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #000000;
+}
+
+
+footer {
+    /* margin: 0 auto; */
+    padding: 15px 25px 16px 25px;
+    
+    bottom: 0;
+
+    background-color: #ffffff;
+}
+
+.botao, .finalizar {
+    width: 100%;
+    height: 61px;
+
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #cbcbcb;
+}
+
+.finalizar {
+    background-color: #32B72F;
+}
+
+.botao span {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.44px;
+    letter-spacing: 0.018em;
+
+    text-align: center;
+
+    color: #ffffff;
+}
+
+.finalizar span {
+    font-weight: 700;
+}
