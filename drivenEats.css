@@ -62,7 +62,7 @@ main {
     gap: 27px;
 }
 
-.tipo {
+.chamada {
     font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 26px;
@@ -74,7 +74,7 @@ main {
 .opcoes {
     margin-top: 17px;
 
-    overflow: auto;
+    overflow-x: scroll;
     /* -webkit-overflow-scrolling: touch; */
 
     display: flex;
@@ -89,6 +89,8 @@ main {
     padding-top: 18px;
 
     box-shadow: 0 0 10px -4px rgba(0, 0, 0, 0.25);
+
+    cursor: pointer;
     
     background-color: #ffffff;
 }
@@ -175,6 +177,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    cursor: pointer;
 
     background-color: #cbcbcb;
 }
