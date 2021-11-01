@@ -83,6 +83,7 @@ function confirmarPedido() {
                                          `Endereço: ${endereco}`);
 
     window.open("https://wa.me/5532988248479?text=" + mensagem);
+    window.location.reload(true);
 }
 
 function cancelarPedido() {

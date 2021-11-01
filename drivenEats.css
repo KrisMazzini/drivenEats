@@ -22,8 +22,6 @@ body {
 
 .fixed, main {
     width: 100%
-
-    /* margin: 0 auto; */
 }
 
 header {
@@ -79,6 +77,10 @@ main {
 
     display: flex;
     gap: 16px;
+}
+
+.opcoes::-webkit-scrollbar {
+    display: none;
 }
 
 .opcao, .selecionada {
