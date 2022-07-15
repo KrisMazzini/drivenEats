@@ -2,9 +2,9 @@
 
 Webpage for food delivery orders.
 
-![Main Page](https://user-images.githubusercontent.com/93556620/179237482-f861d134-56ca-4712-a7c4-b3828c1fb55f.png)
+![Main Page](https://user-images.githubusercontent.com/93556620/179261761-8342ab7c-85ee-402e-bf82-9c8ff5902d40.png)
 
-![Main Page With Selected Items](https://user-images.githubusercontent.com/93556620/179237893-3333d160-e310-475e-9489-4660a047cc68.png)
+![Main Page With Selected Items](https://user-images.githubusercontent.com/93556620/179261842-3faac799-8d9f-41e0-8897-16daa2c4cded.png)
 
 ## Try it out
 
