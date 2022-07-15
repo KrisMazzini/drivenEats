@@ -1,6 +1,6 @@
 # Driven Eats
 
-Webpage for food delivery requests.
+Webpage for food delivery orders.
 
 ![Main Page](https://user-images.githubusercontent.com/93556620/179237482-f861d134-56ca-4712-a7c4-b3828c1fb55f.png)
 
